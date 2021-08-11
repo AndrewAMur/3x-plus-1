@@ -37,4 +37,4 @@ def threeXPlusOneListLen(input, counter, list):
             list.append(input)
     counter = len(list)
 
-threeXPlusOneCounterOne(userInput, i, threeXone)
+# Here you can call any of the functions on the parameters (userInput, i, threeXone)
