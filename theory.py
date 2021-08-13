@@ -5,6 +5,7 @@ threeXone = []
 threeXone.append(userInput)
 print(str(userInput))
 
+# Function adds one to counter after each operation
 def threeXPlusOneCounterOne(input, counter, list):
     counter = 0
     while input != 1:
@@ -23,6 +24,7 @@ def threeXPlusOneCounterOne(input, counter, list):
     counter = str(counter)
     print(f"\nThe number of operations is: {counter}")
 
+# Function finds length of list where list contains each number after operation 
 def threeXPlusOneListLen(input, counter, list):
     while input != 1:
         if input % 2 == 1:
